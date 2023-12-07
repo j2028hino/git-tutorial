@@ -2,13 +2,16 @@
 
 int main()
 {
+  printf("fizzbuzzgame\n");
   for(int i=0;i<50;i++){
     if(i%3==0)
-      printf("fizz!"\n);
+      printf("fizz!\n");
     if(i%5==0)
-      printf("buzz!"\n);
+      printf("buzz!\n");
+    if(i%7==0)
+      printf("git!\n");
     if(i%3==0 && i%5==0)
-      printf("fizzbuzz!"\n);
+      printf("fizzbuzz!\n");
   }
   return 0;
 }
