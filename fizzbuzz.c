@@ -2,6 +2,7 @@
 
 int main()
 {
+  printf("fizzbuzzgame!"\n);
   for(int i=0;i<50;i++){
     if(i%3==0)
       printf("fizz!"\n);
